@@ -1,0 +1,40 @@
+* {
+	padding: 0px;
+	margin: 0px;
+	box-sizing: border-box;
+}
+#main {
+
+}
+
+#header {
+	background-color: black;
+	height: 46.4px;
+}
+.nav {
+
+}
+.nav li {
+	display: inline-block;
+}
+.nav li a {
+	text-decoration: none;
+	line-height: 46.4px;
+}
+.subnav {
+
+}
+.nav .subnav {
+	display: none;
+}
+#slider {
+
+}
+
+#content {
+
+}
+
+#footer {
+
+}

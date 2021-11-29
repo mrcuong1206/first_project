@@ -1,0 +1,142 @@
+/* Slider - Nam */
+
+* {
+    /* padding: 0; */
+    /* margin: 0; */
+    /* box-sizing: border-box; */
+}
+
+.slider {
+    float: left;
+    background-color: wheat;
+    width: 21%;
+    height: 700px;
+    /* margin-left: 120px; */
+    font-family: sans-serif;
+    /* overflow: hidden; */
+}
+
+.slider .sanpham {
+    /* margin-top: 30px; */
+}
+
+.slider a {
+    text-decoration: none;
+    color: black;
+    /* margin-left: 53px; */
+}
+
+.slider li {
+    list-style-type: none;
+    padding-top: 5px;
+}
+
+.slider h3 {
+    color: black;
+    margin-left: 30px;
+}
+
+.slider span {
+    color: black;
+    size: 15px;
+}
+
+.noiban {
+    margin-left: 35px;
+}
+
+.noiban input {
+    margin-top: 7px;
+}
+
+.dv input {
+    margin-top: 7px;
+}
+
+
+/* End - Slider - Nam */
+
+#content-ct {
+    margin-left: 40px;
+    float: left;
+    overflow: hidden;
+    margin-top: 50px;
+    border: 1px solid black;
+    width: calc(75% + -40px)
+}
+
+.container {
+    /* max-width: 1200px;
+    margin: auto; */
+}
+
+.sanphan-one-container-product {
+    /* display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap; */
+}
+
+.sanphan-one-container-produc-item {
+    float: left;
+    height: 400px;
+    width: 250px;
+    /* width: 20%; */
+    padding: 20px 12px 12px;
+    border: 1px solid #ddd;
+    cursor: pointer;
+    /* padding: 20px; */
+    margin-left: 20px;
+}
+
+.sanphan-one-container-title h2 {
+    margin-left: 20px;
+}
+
+.sanphan-one-container-produc-item:hover {
+    box-shadow: 3px 3px 3px 3px #ddd;
+}
+
+.sanphan-one-container-produc-item:hover img {
+    transform: translateY(-20px);
+}
+
+.sanphan-one-container-produc-item-img {
+    width: 100%;
+    transition: all 0.3s ease;
+    margin-top: 10px;
+}
+
+.sanphan-one-container-produc-item {
+    list-style: none;
+}
+
+.sanphan-one-container-produc-item-phukien {
+    /* display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap; */
+}
+
+.sanphan-one-container-produc-item-phukien ul {
+    /* width: 12.5%; */
+    /* padding: 30px; */
+    border: 1px solid #ddd;
+    cursor: pointer;
+}
+
+.sanphan-one-container-produc-item-phukien:hover {
+    box-shadow: 3px 3px 3px #ddd;
+}
+
+.sanphan-one-container-produc-item-phukien:hover {
+    transform: translateY(-20px);
+}
+
+.sanphan-one-container-produc-item-phukien ul li {
+    list-style: none;
+}
+
+.sanphan-one-container-produc-item-phukien ul li {
+    width: 100%;
+    transition: all 0.3s ease;
+    margin-top: 10px;
+}

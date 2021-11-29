@@ -1,0 +1,89 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+html {
+	font-family: sans-serif;
+}
+#main {
+
+}
+
+#header {
+	background-color: black;
+	height: 46.4px;
+}
+.nav {
+	display: inline-block;
+}
+.nav li {
+	display: inline-block;
+	position: relative;
+}
+.nav > li > a {
+	color: white;
+}
+.nav li a {
+	/*color: white;*/
+	text-decoration: none;
+	line-height: 46.4px;
+	padding: 0px 24px;
+	display: block;
+}
+.nav > li:hover > a {
+	background-color: #ccc;
+	color: black;
+}
+.nav .subnav li:hover {
+	background-color: #ccc;
+	color: black;
+}
+.nav li:hover .subnav {
+	display: block;
+}
+.nav .subnav {
+	display: none;
+	position: absolute;
+	background-color: white;
+}
+.subnav li {
+	min-width: 100%;
+	min-width: 170px;
+}
+.subnav li a {
+	color: black;
+	padding: 0px 12px;
+	line-height: 38px;
+}
+.down-icon {
+	font-size: 12px;
+	padding: 5px;
+}
+#header .search {
+	float: right;
+	cursor: pointer;
+}
+#header .search-icon {
+	color: white;
+	line-height: 46.4px;
+	padding: 0px 24px;
+}
+.search-icon:hover {
+	background-color: #f44336;
+}
+#slider {
+	/*/*margin-top: 46.4px;*/
+	padding-top: 50%;  /* 50% chiều ngang của chính nó */
+	background: url('../img/chicago.jpg') top center / cover no-repeat ;
+	position: relative;*/
+}
+
+
+#content {
+
+}
+
+#footer {
+
+}

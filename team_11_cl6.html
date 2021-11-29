@@ -1,0 +1,620 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thiết bị điện tử</title>
+    <link rel="stylesheet" href="./all-css/team_11_cl6.css">
+    <link rel="icon" href="./img/tym.png">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+
+</head>
+
+<body>
+
+    <div class="baotrum">
+        <div class="menu">
+            <div class="up">
+                <ul class="hehe">
+                    <li>
+                        <a href="team_11_cl6.html">
+                            <img src="./img/hihihi.png" alt="" height="50px" style="margin-right: 290px; margin-left: 20px;">
+                        </a>
+                    </li>
+                    <li class="img-ffb">
+                        <a href="team_11_cl6.html"><img src="./img/home.png" alt="" height="20"> Home</a>
+                    </li>
+                    <li class="img-ffb">
+                        <a href=""><img src="./img/chat.png" alt="" height="20"> Chat</a>
+                    </li>
+                    <li class="img-ffb">
+                        <a href=""></i><img src="./img/thongbao.png" alt="" height="20"> Thông báo</a>
+                    </li>
+                    <li class="img-ffb">
+                        <a href=""><img src="./img/add.png" alt="" height="20"> Thêm</a>
+                    </li>
+                </ul>
+                <div class="button-zz">
+                    <div class="thanh-search">
+                        <input type="text" placeholder="Nhập tên sản phẩm...">
+                    </div>
+                    <div class="search-btn">
+                        <div class="search-icon ti-search">
+                            <img src="./img/searchne.png" alt="" style="margin-left: -18px; margin-top: -14px;" height="42px">
+                        </div>
+                    </div>
+                    <div class="img-right">
+                        <img src="./img/user.png" alt="" height="23">
+                        <a href="hong-form-dn.html"> Đăng nhập </a><span style=" font-size: 20px;">|</span>
+                        <a href="hong-form-dk.html"> Đăng kí</a>
+                        <img src="./img/cart.png" alt="" class="img-cart">
+                        <a href="giohang.html">Giỏ hàng</a>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+    <div id="nav-header">
+        <ul class="nav-menu">
+            <li>
+                <a href="laptop.html">
+                    <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAMAAAAJbSJIAAAAb1BMVEX///8AAABLS0u3t7fr6+v19fWUlJTg4OCGhob6+vo6OjpQUFA+Pj7d3d3Ly8vu7u5wcHBra2ugoKB/f3+NjY1XV1fR0dEODg41NTW5ubkgICBhYWGbm5uurq4bGxvExMQoKCh2dnYuLi4VFRVkZGTQk3svAAAES0lEQVR4nO2dUVfiMBCFRShQFRVFBQEB3f//G1eXTCVXe7rbzEyynvs95qHhi9PppKnJ2RkhhBBCCCGEEEIIIYQQQgghhBBCSNFUs+1m7M1mO7tx8nucvwzy8LTeOfhNLjPpHbl6tBa8y+r3wcJWcJHb751bS8FNbrs/3NsJXud2CwzNDHPl0C9URoL5s4xglW2ec4t9YiP4mFvrBJsnfzlBOhhMTQxvc2ud8GBi+JBb64RzE8O4IJ1PfTlEvV85GJpXwMDE3fDapI92ZjRUgIa20FADGtpCQw1oaAsNNaChLTTUgIa20FADGtpCQw1oaAsNNaChLTTUgIa20FADGtpCQw1oaAsNNaChLTTUgIa20FADGtpCQw1oaAsNNaChLTTUgIa20FADGtpCQw1oaAsNNaChLTTUgIa20FADGtry8w39/w94OPFl526YFxr24zy31gmvtYHgpLtfRyw2PChpaxObPXhKug3fw1RfcJTbCZipG25zKwFjdcOr3ErAk7bgDXSwqCtf6nv4BdphikGqfxt0MYNfoB2m8Lg3SGWd7E1/AmbSO93L/xX4QNYNIwzSsBts7cOxMxxl3TCFfb7CZmKj5YULYTyh5lCtvjGTbo/Nq4EPYYc9DKSJoiFeO+w9+cvJcH7sroJmzTBdx5cOu8BWXltF7sOIzuNmxTDFwQtR47dVZJgr7aBZL0yH8YWfQ3KbuhmGjSBrCJqNmiFkUtnH99XNcBl6hMptryWIQRpixnPSH+IR7wutMIWHglT1npN+qaGevm9OBYJUkvTST3BwEfqE7baVsukNDFwIDYxdW8LzAis3nTCFIJXNUSHBGiNbeEPlphOm8+8vClWAMevQK1RXlxqCGI2j0PzmZvfBWwhTrJBHCoYQpDKY3jvQy1oX1MIaYQpBKjcEvjaxRsqMlqyQAvQUoqW+cHM7sgylYg2ZPf1kFhizMJHJsIohLy0OcfM22RDiXrZ79z/pQgoNqNySH/o19CPt/kttjQq0p2ZTmJLJfva+Bc0RuePGcXNqmEImlZshxyqGqEAKSHzoV/GxJFIAOxc0oAJ3SFqYQpA27378vE6Qs1dg2pYWpof4YlLK4wsTHySPwwQj6SQIyKRNAeFd0BxpDnqCCWvKQx/+Vk08eE5+P9nLBxhQhaSE6SG+lAwWLnR5IR9gQGilZNP4Sk3A16M8NMc8HeIf1v/4J5ghrRLGShf4Yf3P8IKhsvgOqSfxBKN/No1f+Roe6PbPxJXbS++xj1PmdDUshVU8tXnubVjaFyZt9F/SL+tDr3aW3Sot+C0upbHuVmnBaxU7lf5FDU7wSyVh/lTSYXLtpLxRLOu74DaSvhcu4XTcLg4pgv/DI3GfeOxq5bdY34+35LWZqqR/QvjKq8bi07i7n2xMdeY7ozyvZbq51ftkqN4t1udl8TDdWZ3sTAghhBBCCCGEEEIIIYQQQgghhBBCCCHl8huXB2Yjc2JMtQAAAABJRU5ErkJggg=="
+                        alt="" height="30"> Laptop
+                </a>
+            </li>
+            <li>
+                <a href="smartphone.html">
+                    <img src="./img/smart.png" alt="" height="30"> Điện thoại</a>
+            </li>
+            <li>
+                <a href="PC_Linhkien.html"> <img src="http://didongdongnai.com/storage/khac.jpg" alt="" height="30"> PC-Linh kiện</a>
+            </li>
+            <li>
+                <a href="phukien.html"> <img src="https://cdn.fastcare.vn/fastcare/2021/03/icon-phu-kien-tai-nghe-75x75-1-medium.png" alt="" height="30"> Phụ kiện</a>
+            </li>
+            <li>
+                <a href="maytinhbang.html" id="maytinhbang"> <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSA5wpMkfpMaWGx0-hRG8MPf2JqTM8xH_-9Z3gzLXlrZBlJHui7pZi2HFndyH_zS-AaA1s&usqp=CAU" alt="" height="30"> Máy tính bảng</a>
+            </li>
+            <!-- <li>
+                <a href="tragop.html"> <img src="data:image/png;base64,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"
+                        alt="" height="30"> Trả góp</a>
+            </li> -->
+            <li>
+                <a href="sale.html"> <img src="https://cdn3.iconfinder.com/data/icons/social-messaging-ui-color-shapes-2/128/sale-badge-red-512.png" alt="" height="30"> Khuyến mãi</a>
+            </li>
+
+        </ul>
+    </div>
+
+
+    <div id="slider">
+        <!-- Danh mục sản phẩm -->
+        <div class="sanpham">
+            <h3 style="margin-top: 20px;">DANH MỤC SẢN PHẨM</h3>
+            <ul class="danhmuc-product">
+                <li><a href="laptoptruyenthong.html">Laptop truyền thống</a></li>
+                <li><a href="laptopgaming.html">Laptop Gaming</a></li>
+                <li><a href="laptopdell.html">Laptop Dell</a></li>
+                <li><a href="macbook.html">Macbook</a></li>
+                <li><a href="#">Chromebooks</a></li>
+                <li><a href="smartphone.html">Điện thoại</a></li>
+                <li><a href="PC_Linhkien.html">PC và Linh kiện</a></li>
+                <hr>
+            </ul>
+        </div>
+
+
+        <!-- Địa chỉ nhận hàng -->
+        <div class="diachi">
+            <h3>ĐỊA CHỈ NHẬN HÀNG</h3>
+            <ul>
+                <li><a href="#"> + Thêm địa chỉ của bạn</a></li>
+                <li><a href="#" style="color: blue;">ĐỔI ĐỊA CHỈ</a></li>
+                <hr>
+            </ul>
+        </div>
+
+        <!-- Dịch vụ -->
+        <div class="dv">
+            <h3>DỊCH VỤ</h3>
+            <div>
+                <input type="checkbox" style="margin-left: 35px;"><img src="./img/hihihi.png" alt="tiki_now" style="width: 100px;height: 20px;"> Giao hàng nhanh 24h
+            </div>
+
+            <div style="margin-top: 5px;">
+                <input type="checkbox" style="margin-left: 35px;"><img src="./img/hihihi.png    " alt="free_ship" style="width: 100px;height: 20px;"> Không giới hạn
+            </div>
+
+            <div>
+                <input type="checkbox" style="margin-left: 35px;"> Rẻ Hơn Hoàn Tiền
+                <br>
+                <hr>
+            </div>
+        </div>
+
+        <!-- Nơi bán -->
+        <div class="noiban">
+            <b>NƠI BÁN</b><br>
+            <input type="checkbox"> Thành phố Hồ Chí Minh
+            <br>
+            <input type="checkbox"> Hà nội
+            <br>
+            <input type="checkbox"> Hải Phòng
+            <br>
+            <input type="checkbox"> Đà Nẵng
+            <br>
+            <input type="checkbox"> Cần Thơ
+        </div>
+    </div>
+
+    <div class="toan-js">
+        <div id="s1" class="carousel slide myslide" data-ride="carousel">
+            <ol class="carousel-indicators">
+                <!-- thêm 1 ảnh thì thêm 1 li -->
+                <li data-target="#s1" data-slide-to="0" class="active"></li>
+                <li data-target="#s1" data-slide-to="1"></li>
+                <li data-target="#s1" data-slide-to="2"></li>
+                <li data-target="#s1" data-slide-to="3"></li>
+                <li data-target="#s1" data-slide-to="4"></li>
+
+            </ol>
+            <div class="carousel-inner" role="listbox">
+                <!-- ảnh 1 -->
+                <div class="carousel-item active">
+                    <img src="https://images.fpt.shop/unsafe/fit-in/800x300/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2021/11/2/637714572252786896_F-H1_800x300.png" alt="">
+                </div>
+                <!--ảnh 2 -->
+                <div class="carousel-item">
+                    <img src="https://images.fpt.shop/unsafe/fit-in/800x300/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2021/11/2/637714420032765666_78F8B4E0-DE88-402E-B4F6-237E5660A048.png" alt="">
+                </div>
+                <!--ảnh 3-->
+                <div class="carousel-item">
+                    <img src="https://images.fpt.shop/unsafe/fit-in/800x300/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2021/11/11/637722699836499245_vivo_F_H1_800x300%20vivo.png" alt="">
+                </div>
+                <!--ảnh 4 -->
+                <div class="carousel-item">
+                    <img src="https://images.fpt.shop/unsafe/fit-in/800x300/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2021/8/31/637660487336798016_F_H1_800x300.png" alt="">
+                </div>
+                <!--ảnh 5-->
+                <div class="carousel-item">
+                    <img src="https://images.fpt.shop/unsafe/fit-in/800x300/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2021/8/31/637660487336798016_F_H1_800x300.png" alt="">
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#s1" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#s1" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+        <!-- Optional JavaScript -->
+        <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    </div>
+
+
+    <div id="content-ct">
+        <div class="laptop">
+            <h2 class="product-title">LAPTOP BÁN CHẠY</h2>
+            <div class="produc-item">
+                <div class="content-item">
+                    <li class="laptop-img">
+                        <a href="laptopacer-product.html"><img src="https://salt.tikicdn.com/cache/400x400/ts/product/4f/a4/83/7b8385dbc3ba9da064ae29653592744b.jpg.webp" height="200"></a>
+                    </li>
+                    <li><b>MAcbook pro 13" 2020</b></li>
+                    <li style="color:red;"><b>33.999.000 VND</b></li>
+                    <li>13.3"</li>
+                    <li class="linhkien-img"><img src="./img/ram.png" alt="" height="15px"> Ram 8GB</li>
+                    <li class="linhkien-img"><img src="./img/ssd.png" alt="" height="15px"> SSD 256GB</li>
+                    <div class="buynow">
+                        <a href="laptopacer-product.html" class="btn-buy">Mua ngay</a>
+                    </div>
+                </div>
+            </div>
+            <div class="produc-item">
+                <div class="content-item">
+                    <li class="laptop-img"><img src="./img/pc4.jpg" height="170"></li>
+                    <li><b>MAcbook pro 13" 2020</b></li>
+                    <li style="color:red;"><b>33.999.000 VND</b></li>
+                    <li>13.3"</li>
+                    <li class="linhkien-img"><img src="./img/ram.png" alt="" height="15px"> Ram 8GB</li>
+                    <li class="linhkien-img"><img src="./img/ssd.png" alt="" height="15px"> SSD 256GB</li>
+                    <li>Khối lượng 1.4KG</li>
+                    <div class="buynow">
+                        <a href="" class="btn-buy">Mua ngay</a>
+                    </div>
+                </div>
+            </div>
+            <div class="produc-item">
+                <div class="content-item">
+                    <li class="laptop-img">
+                        <a href="laptopacer-product.html"><img src="https://salt.tikicdn.com/cache/w1200/ts/product/4f/a4/83/7b8385dbc3ba9da064ae29653592744b.jpg" height="200"></a>
+                    </li>
+                    <li><b>Laptop Asus ROG Strix</b></li>
+                    <li style="color:red;"><b>33.999.000 VND</b></li>
+                    <li>13.3"</li>
+                    <li class="linhkien-img"><img src="./img/ram.png" alt="" height="15px"> Ram 8GB</li>
+                    <li class="linhkien-img"><img src="./img/ssd.png" alt="" height="15px"> SSD 256GB</li>
+                    <div class="buynow">
+                        <a href="laptopacer-product.html" class="btn-buy">Mua ngay</a>
+                    </div>
+                </div>
+            </div>
+            <div class="produc-item">
+                <div class="content-item">
+                    <li class="laptop-img"><img src="./img/pc4.jpg" height="170"></li>
+                    <li><b>MAcbook pro 13" 2020</b></li>
+                    <li style="color:red;"><b>33.999.000 VND</b></li>
+                    <li>13.3"</li>
+                    <li class="linhkien-img"><img src="./img/ram.png" alt="" height="15px"> Ram 8GB</li>
+                    <li class="linhkien-img"><img src="./img/ssd.png" alt="" height="15px"> SSD 256GB</li>
+                    <li>Khối lượng 1.4KG</li>
+                    <div class="buynow">
+                        <a href="" class="btn-buy">Mua ngay</a>
+                    </div>
+                </div>
+            </div>
+            <div class="produc-item">
+                <div class="content-item">
+                    <li class="laptop-img"><img src="./img/pc7.jpg"></li>
+                    <li><b>MAcbook pro 13" 2020</b></li>
+                    <li style="color:red;"><b>33.999.000 VND</b></li>
+                    <li>13.3"</li>
+                    <li class="linhkien-img"><img src="./img/ram.png" alt="" height="15px"> Ram 8GB</li>
+                    <li class="linhkien-img"><img src="./img/ssd.png" alt="" height="15px"> SSD 256GB</li>
+                    <li>Khối lượng 1.4KG</li>
+                    <div class="buynow">
+                        <a href="" class="btn-buy">Mua ngay</a>
+                    </div>
+                </div>
+            </div>
+            <div class="produc-item">
+                <div class="content-item">
+                    <li class="laptop-img">
+                        <a href="laptopacer2-product.html"><img src="./img/pc6.jpg"></a>
+                    </li>
+                    <li><b>MAcbook pro 13" 2020</b></li>
+                    <li style="color:red;"><b>33.999.000 VND</b></li>
+                    <li>13.3"</li>
+                    <li class="linhkien-img"><img src="./img/ram.png" alt="" height="15px"> Ram 8GB</li>
+                    <li class="linhkien-img"><img src="./img/ssd.png" alt="" height="15px"> SSD 256GB</li>
+                    <li>Khối lượng 1.4KG</li>
+                    <div class="buynow">
+                        <a href="laptopacer2-product.html" class="btn-buy">Mua ngay</a>
+                    </div>
+                </div>
+            </div>
+            <div class="produc-item">
+                <div class="content-item">
+                    <li class="laptop-img"><img src="./img/pc6.jpg"></li>
+                    <li><b>MAcbook pro 13" 2020</b></li>
+                    <li style="color:red;"><b>33.999.000 VND</b></li>
+                    <li>13.3"</li>
+                    <li class="linhkien-img"><img src="./img/ram.png" alt="" height="15px"> Ram 8GB</li>
+                    <li class="linhkien-img"><img src="./img/ssd.png" alt="" height="15px"> SSD 256GB</li>
+                    <li>Khối lượng 1.4KG</li>
+                    <div class="buynow">
+                        <a href="" class="btn-buy">Mua ngay</a>
+                    </div>
+                </div>
+            </div>
+            <div class="produc-item">
+                <div class="content-item">
+                    <li class="laptop-img"><img src="./img/pc7.jpg"></li>
+                    <li><b>MAcbook pro 13" 2020</b></li>
+                    <li style="color:red;"><b>33.999.000 VND</b></li>
+                    <li>13.3"</li>
+                    <li class="linhkien-img"><img src="./img/ram.png" alt="" height="15px"> Ram 8GB</li>
+                    <li class="linhkien-img"><img src="./img/ssd.png" alt="" height="15px"> SSD 256GB</li>
+                    <li>Khối lượng 1.4KG</li>
+                    <div class="buynow">
+                        <a href="" class="btn-buy">Mua ngay</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="clear"></div>
+
+        <div class="dienthoaine">
+            <h2 class="product-title">ĐIỆN THOẠI XỊN</h2>
+            <div class="produc-item">
+                <div class="content-item">
+                    <li class="laptop-img">
+                        <a href="iphone-product.html"><img src="./img/ip14.jpg" height="200"></a>
+                    </li>
+                    <li><b>Iphone 14 Pro Max 2022</b></li>
+                    <li style="color:red;"><b>99.999.999 VND</b></li>
+                    <li>13.3"</li>
+                    <li class="linhkien-img"><img src="./img/ram.png" alt="" height="15px"> Ram 8GB</li>
+                    <li><img src="	https://salt.tikicdn.com/ts/upload/fc/d8/25/e61805952396b6ed4143194298112b0a.png" alt="" height="17px"> Trả góp</li>
+                    <div class="buynow">
+                        <a href="iphone-product.html" class="btn-buy">Mua ngay</a>
+                    </div>
+                </div>
+            </div>
+            <div class="produc-item">
+                <div class="content-item">
+                    <li class="laptop-img"><img src="./img/realme_c21y_black.png"></li>
+                    <li><b>Realme C21y Black</b></li>
+                    <li style="color:red;"><b>3.490.000 VND</b></li>
+                    <li> 6.5"</li>
+                    <li class="linhkien-img"><img src="./img/ram.png" alt="" height="15px"> Ram 8GB</li>
+                    <li><img src="	https://salt.tikicdn.com/ts/upload/fc/d8/25/e61805952396b6ed4143194298112b0a.png" alt="" height="17px"> Trả góp</li>
+                    <div class="buynow">
+                        <a href="" class="btn-buy">Mua ngay</a>
+                    </div>
+                </div>
+            </div>
+            <div class="produc-item">
+                <div class="content-item">
+                    <li class="laptop-img"><img src="./img/xiaomi.png"></li>
+                    <li><b>Xiaomi 11T White</b></li>
+                    <li style="color:red;"><b>11.490.000 VND</b></li>
+                    <li> 6.67"</li>
+                    <li class="linhkien-img"><img src="./img/ram.png" alt="" height="15px"> Ram 8GB</li>
+                    <li><img src="	https://salt.tikicdn.com/ts/upload/fc/d8/25/e61805952396b6ed4143194298112b0a.png" alt="" height="17px"> Trả góp</li>
+                    <div class="buynow">
+                        <a href="" class="btn-buy">Mua ngay</a>
+                    </div>
+                </div>
+            </div>
+            <div class="produc-item">
+                <div class="content-item">
+                    <li class="laptop-img"><img src="./img/samsung_galaxy_fold_3_green.png"></li>
+                    <li><b>Samsung Galaxy Fold</b></li>
+                    <li style="color:red;"><b>41.990.000 VND</b></li>
+                    <li> 7.7"</li>
+                    <li class="linhkien-img"><img src="./img/ram.png" alt="" height="15px"> Ram 8GB</li>
+                    <li><img src="	https://salt.tikicdn.com/ts/upload/fc/d8/25/e61805952396b6ed4143194298112b0a.png" alt="" height="17px"> Trả góp</li>
+                    <div class="buynow">
+                        <a href="" class="btn-buy">Mua ngay</a>
+                    </div>
+                </div>
+            </div>
+            <div class="produc-item">
+                <div class="content-item">
+                    <li class="laptop-img">
+                        <a href="samsung-product.html"><img src="./img/samsung_galaxy_flip_3_cream_1.png"></a>
+                    </li>
+                    <li><b>Samsung Galaxy Flip 3 </b></li>
+                    <li style="color:red;"><b>24.990.000 VND</b></li>
+                    <li> 6.7"</li>
+                    <li class="linhkien-img"><img src="./img/ram.png" alt="" height="15px"> Ram 8GB</li>
+                    <li><img src="	https://salt.tikicdn.com/ts/upload/fc/d8/25/e61805952396b6ed4143194298112b0a.png" alt="" height="17px"> Trả góp</li>
+                    <div class="buynow">
+                        <a href="samsung-product.html" class="btn-buy">Mua ngay</a>
+                    </div>
+                </div>
+            </div>
+            <div class="produc-item">
+                <div class="content-item">
+                    <li class="laptop-img">
+                        <a href="samsung1-product.html"><img src="./img/samsung_galaxy_a52.png"></a>
+                    </li>
+                    <li><b>Samsung Galaxy A52</b></li>
+                    <li style="color:red;"><b>10.290.000 VND</b></li>
+                    <li> 6.5"</li>
+                    <li class="linhkien-img"><img src="./img/ram.png" alt="" height="15px"> Ram 8GB</li>
+                    <li><img src="	https://salt.tikicdn.com/ts/upload/fc/d8/25/e61805952396b6ed4143194298112b0a.png" alt="" height="17px"> Trả góp</li>
+                    <div class="buynow">
+                        <a href="samsung1-product.html" class="btn-buy">Mua ngay</a>
+                    </div>
+                </div>
+            </div>
+            <div class="produc-item">
+                <div class="content-item">
+                    <li class="laptop-img"><img src="./img/oppo_a74_blue_9.png"></li>
+                    <li><b>Oppo A74 Blue</b></li>
+                    <li style="color:red;"><b>6.690.000 VND</b></li>
+                    <li> 6.43"</li>
+                    <li class="linhkien-img"><img src="./img/ram.png" alt="" height="15px"> Ram 8GB</li>
+                    <li><img src="	https://salt.tikicdn.com/ts/upload/fc/d8/25/e61805952396b6ed4143194298112b0a.png" alt="" height="17px"> Trả góp</li>
+                    <div class="buynow">
+                        <a href="" class="btn-buy">Mua ngay</a>
+                    </div>
+                </div>
+            </div>
+            <div class="produc-item">
+                <div class="content-item">
+                    <li class="laptop-img"><img src="./img/oppo_ren6_z_5g_aurora.png"></li>
+                    <li><b>Oppo Ren6 Z 5G</b></li>
+                    <li style="color:red;"><b>12.990.000 VND</b></li>
+                    <li> 6.43"</li>
+                    <li class="linhkien-img"><img src="./img/ram.png" alt="" height="15px"> Ram 8GB</li>
+                    <li><img src="	https://salt.tikicdn.com/ts/upload/fc/d8/25/e61805952396b6ed4143194298112b0a.png" alt="" height="17px"> Trả góp</li>
+                    <div class="buynow">
+                        <a href="" class="btn-buy">Mua ngay</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="clear"></div>
+
+        <div class="linhkien">
+            <h2 class="product-title">LINK KIỆN HOT</h2>
+            <div class="produc-item-linhkien">
+                <div class="content-item">
+                    <li class="laptop-img">
+                        <a href="mouse-product.html"><img src="./img/chuot4.jpg"></a>
+                    </li>
+                    <li><b>Chuột Corsair Iron claw RGB</b></li>
+                    <li style="color:red;"><b>500.000 VND</b></li>
+
+                    <div class="buynow">
+                        <a href="mouse-product.html" class="btn-buy">Mua ngay</a>
+                    </div>
+                </div>
+            </div>
+            <div class="produc-item-linhkien">
+                <div class="content-item">
+                    <li class="laptop-img"><img src="./img/chuot1.jpg"></li>
+                    <li><b>Chuột Game có dây Logitech G402</b></li>
+                    <li style="color:red;"><b>820.000 VND</b></li>
+                    <div class="buynow">
+                        <a href="" class="btn-buy">Mua ngay</a>
+                    </div>
+                </div>
+            </div>
+            <div class="produc-item-linhkien">
+                <div class="content-item">
+                    <li class="laptop-img"><img src="./img/chuot2.jpg"></li>
+                    <li><b>Chuột không dây Targus W620</b></li>
+                    <li style="color:red;"><b>300.000 VND</b></li>
+
+                    <div class="buynow">
+                        <a href="" class="btn-buy">Mua ngay</a>
+                    </div>
+                </div>
+            </div>
+            <div class="produc-item-linhkien">
+                <div class="content-item">
+                    <li class="laptop-img"><img src="./img/chuot3.jpg"></li>
+                    <li><b>Chuột game có dây Zadez G153M</b></li>
+                    <li style="color:red;"><b>600.000 VND</b></li>
+                    <div class="buynow">
+                        <a href="" class="btn-buy">Mua ngay</a>
+                    </div>
+                </div>
+            </div>
+            <div class="produc-item-linhkien">
+                <div class="content-item">
+                    <li class="laptop-img"><img src="./img/key1.jpg"></li>
+                    <li><b>Bàn Phím Gập Không Dây Mipow Miffy </b></li>
+                    <li style="color:red;"><b>1.590.00 VND</b></li>
+
+                    <div class="buynow">
+                        <a href="" class="btn-buy">Mua ngay</a>
+                    </div>
+                </div>
+            </div>
+            <div class="produc-item-linhkien">
+                <div class="content-item">
+                    <li class="laptop-img"><img src="./img/key1.jpg"></li>
+                    <li><b>Bàn phím không dây Magic Keyboard 2021 Touch ID </b></li>
+                    <li style="color:red;"><b>1.290.000 VND</b></li>
+                    <div class="buynow">
+                        <a href="" class="btn-buy">Mua ngay</a>
+                    </div>
+                </div>
+            </div>
+            <div class="produc-item-linhkien">
+                <div class="content-item">
+                    <li class="laptop-img"><img src="./img/key1.jpg"></li>
+                    <li><b>Bàn phím không dây Magic Keyboard 2021</b></li>
+                    <li style="color:red;"><b>2.690.000 VND</b></li>
+
+                    <div class="buynow">
+                        <a href="" class="btn-buy">Mua ngay</a>
+                    </div>
+                </div>
+            </div>
+            <div class="produc-item-linhkien">
+                <div class="content-item">
+                    <li class="laptop-img"><img src="./img/key1.jpg"></li>
+                    <li><b>Bàn phím không dây Magic Keyboard 2021 Touch ID</b></li>
+                    <li style="color:red;"><b>12.990.000 VND</b></li>
+                    <div class="buynow">
+                        <a href="" class="btn-buy">Mua ngay</a>
+                    </div>
+                </div>
+            </div>
+            <div class="produc-item-linhkien">
+                <div class="content-item">
+                    <li class="laptop-img"><img src="./img/tainghe1.jpg"></li>
+                    <li><b>Tai nghe chơi game không dây Corsair Virtuoso RGB SE</b></li>
+                    <li style="color:red;"><b>5.990.000 VND</b></li>
+                    <div class="buynow">
+                        <a href="" class="btn-buy">Mua ngay</a>
+                    </div>
+                </div>
+            </div>
+            <div class="produc-item-linhkien">
+                <div class="content-item">
+                    <li class="laptop-img"><img src="./img/tainghe2.jpg"></li>
+                    <li><b>Tai nghe choàng đầu có mic Gaming Zadez GT-326P</b></li>
+                    <li style="color:red;"><b>790.000 VND</b></li>
+                    <div class="buynow">
+                        <a href="" class="btn-buy">Mua ngay</a>
+                    </div>
+                </div>
+            </div>
+            <div class="produc-item-linhkien">
+                <div class="content-item">
+                    <li class="laptop-img"><img src="./img/tainghe3.jpg"></li>
+                    <li><b>Tai nghe có dây choàng đầu i.value T-131 Đỏ</b></li>
+                    <li style="color:red;"><b>490.000 VND</b></li>
+                    <div class="buynow">
+                        <a href="" class="btn-buy">Mua ngay</a>
+                    </div>
+                </div>
+            </div>
+            <div class="produc-item-linhkien">
+                <div class="content-item">
+                    <li class="laptop-img"><img src="./img/tainghe4.jpg"></li>
+                    <li><b>Tai nghe choàng đầu có mic Gaming Zadez GT-326P</b></li>
+                    <li style="color:red;"><b>700.000 VND</b></li>
+                    <div class="buynow">
+                        <a href="" class="btn-buy">Mua ngay</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="clear"></div>
+
+    </div>
+
+
+
+    <div id="footer">
+        <div class="footer-left">
+            <div class="footer-in4">
+                <p><strong>Địa chỉ: </strong> Team 11 - Cầu Giấy - Hà Nội</p>
+                <p><strong>Email: </strong> mrmanhcuong126@gmail.com</p>
+                <p><strong>Số điện thoại: </strong> 0337838201</p>
+            </div>
+        </div>
+        <div class="footer-center">
+            <ul class="ft-center">
+                <li class="tuvanmh">Tư vấn mua hàng 1</li>
+                <li><a href="">0337838201</a></li>
+                <li class="tuvanmh">Tư vấn mua hàng 2</li>
+                <li><a href="">0123456789</a></li>
+            </ul>
+        </div>
+        <div class="footer-center-2">
+            <ul class="ft-center-2">
+                <li><a href="">Liên hệ Cường</a></li>
+                <li><a href="">Liên hệ An</a></li>
+                <li><a href="">Liên hệ Nam</a></li>
+                <li><a href="">Liên hệ Hồng</a></li>
+                <li><a href="">Liên hệ Toàn</a></li>
+            </ul>
+        </div>
+        <div class="contact">
+            <div class="img-contact">
+                <h4 class="heading-3">Contact MXH: </h4>
+                <div class="img-all">
+                    <a href="https://www.facebook.com/mrcuong1808/" target="_blank"><img src="./img/fb.png" alt="" height="30"></a>
+                </div>
+                <div class="img-all"><img src="./img/ig.png" alt="" height="30"></div>
+                <div class="img-all"><img src="./img/tw.png" alt="" height="30"></div>
+                <div class="img-all"><img src="./img/gg.png" alt="" height="30"></div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
